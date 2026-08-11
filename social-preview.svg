@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120e1c"/>
+      <stop offset="1" stop-color="#0a0a12"/>
+    </linearGradient>
+    <radialGradient id="blobA" cx="0.25" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#7c6cff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7c6cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobB" cx="0.85" cy="0.55" r="0.6">
+      <stop offset="0" stop-color="#29d9c2" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#29d9c2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c6cff"/>
+      <stop offset="0.6" stop-color="#29d9c2"/>
+      <stop offset="1" stop-color="#ff6fa5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#blobA)"/>
+  <rect width="1200" height="630" fill="url(#blobB)"/>
+  <rect x="90" y="90" width="46" height="46" rx="15" fill="url(#text)"/>
+  <text x="150" y="128" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#f5f3fa">Erlikx Store</text>
+  <text x="90" y="260" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#f5f3fa">Şekil değiştiren</text>
+  <text x="90" y="340" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="url(#text)">uygulamalar.</text>
+  <text x="90" y="400" font-family="Arial, sans-serif" font-size="26" fill="#a29dbe">Builder-Morphe ile derlenen yamalı Android APK'ları</text>
+</svg>
