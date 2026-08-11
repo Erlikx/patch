@@ -51,9 +51,16 @@ a{color:inherit}
   *,*::before,*::after{animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; scroll-behavior:auto !important}
 }
 
-/* ---------- Ambient liquid background ---------- */
+/* ---------- Ambient liquid background ----------
+   Deliberately NOT position:fixed. A fixed, blurred, blend-moded,
+   constantly-animating layer sitting behind everything is a known
+   trigger for Firefox-for-Android's compositor to stop repainting
+   newly-scrolled-in content (cards go blank until a forced reflow).
+   Positioning it in normal flow (absolute, scrolls away with the
+   page) keeps the same look above the fold without that layer. */
 .liquid-bg{
-  position:fixed; inset:0; z-index:0; overflow:hidden;
+  position:absolute; top:0; left:0; right:0; height:100vh;
+  z-index:0; overflow:hidden; pointer-events:none;
   background:
     radial-gradient(ellipse 120% 80% at 50% -10%, #1a1430 0%, transparent 60%),
     linear-gradient(180deg, var(--bg-2) 0%, var(--bg-1) 55%);
@@ -61,10 +68,10 @@ a{color:inherit}
 .blob{
   position:absolute;
   border-radius:50%;
-  filter:blur(70px) url(#liquidTurbulence);
-  opacity:.55;
-  mix-blend-mode:screen;
+  filter:blur(70px);
+  opacity:.65;
   will-change:transform;
+  transform:translateZ(0);
 }
 .blob-a{
   width:52vw; height:52vw; top:-18vw; left:-12vw;
@@ -104,11 +111,12 @@ a{color:inherit}
   background:var(--glass-bg);
   border:1px solid var(--glass-border);
   border-radius:var(--radius-lg);
-  backdrop-filter:blur(24px) saturate(140%);
-  -webkit-backdrop-filter:blur(24px) saturate(140%);
+  backdrop-filter:blur(20px) saturate(140%);
+  -webkit-backdrop-filter:blur(20px) saturate(140%);
   box-shadow:var(--shadow-glass);
   position:relative;
   isolation:isolate;
+  transform:translateZ(0);
 }
 .glass::before{
   content:"";
@@ -118,6 +126,7 @@ a{color:inherit}
   background:linear-gradient(135deg, rgba(255,255,255,.35), rgba(255,255,255,0) 40%, rgba(255,255,255,.08) 100%);
   -webkit-mask:linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite:xor;
+  mask:linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask-composite:exclude;
   pointer-events:none;
 }
@@ -180,15 +189,18 @@ a{color:inherit}
 .search-field{
   flex:1 1 260px; display:flex; align-items:center; gap:10px;
   background:rgba(255,255,255,.045); border:1px solid var(--glass-border);
-  border-radius:var(--radius-md); padding:11px 14px;
+  border-radius:var(--radius-md);
+  height:46px; padding:0 14px; box-sizing:border-box;
   transition:border-color .2s, background .2s;
 }
 .search-field:focus-within{border-color:var(--glass-border-strong); background:rgba(255,255,255,.07)}
 .search-icon{color:var(--muted-dim); flex-shrink:0}
 .search-field input{
-  flex:1; background:none; border:none; outline:none; color:var(--text);
-  font-family:'Inter',sans-serif; font-size:.95rem;
+  flex:1; min-width:0; height:100%; background:none; border:none; outline:none; color:var(--text);
+  font-family:'Inter',sans-serif; font-size:.95rem; line-height:normal;
+  -webkit-appearance:none; appearance:none;
 }
+.search-field input::-webkit-search-cancel-button{display:none}
 .search-field input::placeholder{color:var(--muted-dim)}
 #clearSearch{background:none; border:none; color:var(--muted-dim); cursor:pointer; display:none; padding:4px}
 #clearSearch.show{display:flex}
@@ -234,6 +246,29 @@ a{color:inherit}
   transition:transform .25s ease, border-color .25s ease;
   display:flex; flex-direction:column; gap:14px;
   position:relative; overflow:hidden;
+  /* Cards use a solid surface, not backdrop-filter: having 10+ blurred
+     compositing layers on screen at once is what caused blank/frozen
+     cards while scrolling on Android. Only the small number of fixed
+     "chrome" surfaces (topbar, control deck, modals, footer) blur. */
+  background:#1a1626;
+  border:1px solid var(--glass-border);
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-glass);
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+  contain:content;
+}
+.card::before{
+  content:"";
+  position:absolute; inset:0;
+  border-radius:inherit;
+  padding:1px;
+  background:linear-gradient(135deg, rgba(255,255,255,.28), rgba(255,255,255,0) 40%, rgba(255,255,255,.06) 100%);
+  -webkit-mask:linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;
+  mask:linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite:exclude;
+  pointer-events:none;
 }
 .card::after{
   content:""; position:absolute; inset:0; border-radius:inherit; pointer-events:none;
