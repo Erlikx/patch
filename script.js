@@ -88,10 +88,10 @@ function matchAsset(fileName) {
   if (!fileName.toLowerCase().endsWith(".apk")) return null;
   if (fileName.toLowerCase().startsWith("microg")) return null;
   const base = fileName.slice(0, -4);
-  const lastDash = base.lastIndexOf("-");
-  if (lastDash === -1) return null;
-  const namePart = base.slice(0, lastDash);
-  const versionPart = base.slice(lastDash + 1);
+  const firstDash = base.indexOf("-");
+  if (firstDash === -1) return null;
+  const namePart = base.slice(0, firstDash);
+  const versionPart = base.slice(firstDash + 1);
   const normalizedNamePart = normalize(namePart);
   for (const [name, key] of Object.entries(NAME_TO_KEY)) {
     if (normalize(name) === normalizedNamePart) return { appKey: key, version: versionPart };
