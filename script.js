@@ -191,7 +191,7 @@ function renderCard(item) {
   const src = SOURCES[app.source];
   const card = document.createElement("button");
   card.type = "button";
-  card.className = "card glass";
+  card.className = "card";
   card.innerHTML = `
     <div class="card-top">
       <img class="card-icon" src="${app.icon}" alt="" loading="lazy" onerror="this.style.opacity=0.3">
