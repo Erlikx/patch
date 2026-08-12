@@ -10,6 +10,7 @@
    ========================================================== */
 
 :root{
+  color-scheme: dark;
   --bg-1:#0a0a12;
   --bg-2:#120e1c;
   --iris:#7c6cff;
@@ -30,6 +31,7 @@
 }
 
 *{box-sizing:border-box}
+[hidden]{display:none !important}
 html{scroll-behavior:smooth}
 body{
   margin:0;
@@ -51,59 +53,21 @@ a{color:inherit}
   *,*::before,*::after{animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; scroll-behavior:auto !important}
 }
 
-/* ---------- Ambient liquid background ----------
-   Deliberately NOT position:fixed. A fixed, blurred, blend-moded,
-   constantly-animating layer sitting behind everything is a known
-   trigger for Firefox-for-Android's compositor to stop repainting
-   newly-scrolled-in content (cards go blank until a forced reflow).
-   Positioning it in normal flow (absolute, scrolls away with the
-   page) keeps the same look above the fold without that layer. */
+/* ---------- Ambient background ----------
+   Kept intentionally simple: no per-frame animation, no CSS filter,
+   no SVG turbulence. Those were the actual source of every rendering
+   bug reported so far (blank cards, oversized inputs on some
+   browsers). A few static, soft-edged radial gradients give the
+   same "liquid" color wash with none of that risk. */
 .liquid-bg{
   position:absolute; top:0; left:0; right:0; height:100vh;
   z-index:0; overflow:hidden; pointer-events:none;
   background:
+    radial-gradient(circle at 15% -10%, rgba(124,108,255,.30), transparent 45%),
+    radial-gradient(circle at 90% 15%, rgba(41,217,194,.24), transparent 42%),
+    radial-gradient(circle at 30% 55%, rgba(255,111,165,.16), transparent 40%),
     radial-gradient(ellipse 120% 80% at 50% -10%, #1a1430 0%, transparent 60%),
     linear-gradient(180deg, var(--bg-2) 0%, var(--bg-1) 55%);
-}
-.blob{
-  position:absolute;
-  border-radius:50%;
-  filter:blur(70px);
-  opacity:.65;
-  will-change:transform;
-  transform:translateZ(0);
-}
-.blob-a{
-  width:52vw; height:52vw; top:-18vw; left:-12vw;
-  background:radial-gradient(circle at 35% 35%, var(--iris), transparent 70%);
-  animation:drift-a 34s ease-in-out infinite;
-}
-.blob-b{
-  width:44vw; height:44vw; top:8vh; right:-16vw;
-  background:radial-gradient(circle at 60% 40%, var(--aqua), transparent 70%);
-  animation:drift-b 42s ease-in-out infinite;
-}
-.blob-c{
-  width:38vw; height:38vw; bottom:-14vw; left:22vw;
-  background:radial-gradient(circle at 50% 50%, var(--rose), transparent 70%);
-  animation:drift-c 50s ease-in-out infinite;
-}
-@keyframes drift-a{
-  0%,100%{transform:translate(0,0) scale(1)}
-  50%{transform:translate(6vw,4vh) scale(1.12)}
-}
-@keyframes drift-b{
-  0%,100%{transform:translate(0,0) scale(1)}
-  50%{transform:translate(-5vw,6vh) scale(0.92)}
-}
-@keyframes drift-c{
-  0%,100%{transform:translate(0,0) scale(1)}
-  50%{transform:translate(4vw,-5vh) scale(1.08)}
-}
-.grain{
-  position:absolute; inset:0;
-  opacity:.035;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 /* ---------- Glass surface base ---------- */
