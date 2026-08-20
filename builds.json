@@ -2789,6 +2789,86 @@
           "Voice over translation ",
           "Wide search bar "
         ]
+      },
+      "260264": {
+        "patches": "MorpheApp/patches-1.40.0-dev.12.mpp",
+        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.12",
+        "applied_patches": [
+          "Add to queue ",
+          "Alternative thumbnails ",
+          "Ambient mode ",
+          "Bypass image region restrictions ",
+          "Bypass link redirects ",
+          "Captions ",
+          "Change form factor ",
+          "Change header ",
+          "Change start page ",
+          "Check watch history domain name resolution ",
+          "Copy video link ",
+          "Custom branding ",
+          "Custom player overlay opacity ",
+          "Disable DRC audio ",
+          "Disable QUIC protocol ",
+          "Disable Shorts resuming on startup ",
+          "Disable double tap actions ",
+          "Disable fullscreen gestures ",
+          "Disable haptic feedback ",
+          "Disable layout updates ",
+          "Disable player popup panels ",
+          "Disable rolling number animations ",
+          "Disable sign in to TV popup ",
+          "Disable video codecs ",
+          "Double tap to seek ",
+          "Downloads ",
+          "Enable debugging ",
+          "Exit fullscreen mode ",
+          "Force original audio ",
+          "GmsCore support ",
+          "Hide Shorts components ",
+          "Hide ads ",
+          "Hide autoplay preview ",
+          "Hide end screen cards ",
+          "Hide end screen suggested video ",
+          "Hide info cards ",
+          "Hide layout components ",
+          "Hide player flyout menu components ",
+          "Hide player overlay buttons ",
+          "Hide related video overlay ",
+          "Hide related videos ",
+          "Hide timestamp ",
+          "Hide video action buttons ",
+          "Loop video ",
+          "Media notification controls ",
+          "Miniplayer ",
+          "Navigation bar ",
+          "Open Shorts in regular player ",
+          "Open channel of live avatar ",
+          "Open links externally ",
+          "Open system share sheet ",
+          "Open videos fullscreen ",
+          "Override YouTube Music buttons ",
+          "Play all ",
+          "Playback in feeds ",
+          "Playback speed ",
+          "Reload video ",
+          "Remove background playback restrictions ",
+          "Remove viewer discretion dialog ",
+          "Return YouTube Dislike ",
+          "Sanitize sharing links ",
+          "Save to watch later ",
+          "Seekbar ",
+          "Settings menu filter ",
+          "Shorts autoplay ",
+          "SponsorBlock ",
+          "Spoof app version ",
+          "Spoof device dimensions ",
+          "Spoof video streams ",
+          "Swipe controls ",
+          "Theme ",
+          "Video quality ",
+          "Voice over translation ",
+          "Wide search bar "
+        ]
       }
     }
   },
@@ -3229,6 +3309,50 @@
           "Miniplayer previous and next buttons ",
           "Navigation bar ",
           "Network proxy ",
+          "Remember repeat state ",
+          "Remember shuffle state ",
+          "Remove background playback restrictions ",
+          "Remove viewer discretion dialog ",
+          "Return YouTube Dislike ",
+          "Sanitize sharing links ",
+          "Scrobbling ",
+          "Settings menu filter ",
+          "SponsorBlock ",
+          "Spoof app version ",
+          "Spoof video streams ",
+          "Theme ",
+          "Third-party lyrics "
+        ]
+      },
+      "260264": {
+        "patches": "MorpheApp/patches-1.40.0-dev.12.mpp",
+        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.12",
+        "applied_patches": [
+          "Bypass certificate checks ",
+          "Change header ",
+          "Change miniplayer color ",
+          "Change start page ",
+          "Check watch history domain name resolution ",
+          "Crossfade ",
+          "Custom branding ",
+          "Disable DRC audio ",
+          "Disable QUIC protocol ",
+          "Disable dislike redirection ",
+          "Downloads ",
+          "Enable debugging ",
+          "Enable exclusive audio playback ",
+          "Enable forced miniplayer ",
+          "Enable swipe to dismiss miniplayer ",
+          "Force original audio ",
+          "GmsCore support ",
+          "Hide ads ",
+          "Hide buttons ",
+          "Hide filter bar ",
+          "Hide flyout menu components ",
+          "Hide layout components ",
+          "Hide music action buttons ",
+          "Miniplayer previous and next buttons ",
+          "Navigation bar ",
           "Remember repeat state ",
           "Remember shuffle state ",
           "Remove background playback restrictions ",
@@ -4059,6 +4183,86 @@
           "Voice over translation ",
           "Wide search bar "
         ]
+      },
+      "260264": {
+        "patches": "MorpheApp/patches-1.40.0-dev.12.mpp",
+        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.12",
+        "applied_patches": [
+          "Add to queue ",
+          "Alternative thumbnails ",
+          "Ambient mode ",
+          "Bypass image region restrictions ",
+          "Bypass link redirects ",
+          "Captions ",
+          "Change form factor ",
+          "Change header ",
+          "Change start page ",
+          "Check watch history domain name resolution ",
+          "Copy video link ",
+          "Custom branding ",
+          "Custom player overlay opacity ",
+          "Disable DRC audio ",
+          "Disable QUIC protocol ",
+          "Disable Shorts resuming on startup ",
+          "Disable double tap actions ",
+          "Disable fullscreen gestures ",
+          "Disable haptic feedback ",
+          "Disable layout updates ",
+          "Disable player popup panels ",
+          "Disable rolling number animations ",
+          "Disable sign in to TV popup ",
+          "Disable video codecs ",
+          "Double tap to seek ",
+          "Downloads ",
+          "Enable debugging ",
+          "Exit fullscreen mode ",
+          "Force original audio ",
+          "GmsCore support ",
+          "Hide Shorts components ",
+          "Hide ads ",
+          "Hide autoplay preview ",
+          "Hide end screen cards ",
+          "Hide end screen suggested video ",
+          "Hide info cards ",
+          "Hide layout components ",
+          "Hide player flyout menu components ",
+          "Hide player overlay buttons ",
+          "Hide related video overlay ",
+          "Hide related videos ",
+          "Hide timestamp ",
+          "Hide video action buttons ",
+          "Loop video ",
+          "Media notification controls ",
+          "Miniplayer ",
+          "Navigation bar ",
+          "Open Shorts in regular player ",
+          "Open channel of live avatar ",
+          "Open links externally ",
+          "Open system share sheet ",
+          "Open videos fullscreen ",
+          "Override YouTube Music buttons ",
+          "Play all ",
+          "Playback in feeds ",
+          "Playback speed ",
+          "Reload video ",
+          "Remove background playback restrictions ",
+          "Remove viewer discretion dialog ",
+          "Return YouTube Dislike ",
+          "Sanitize sharing links ",
+          "Save to watch later ",
+          "Seekbar ",
+          "Settings menu filter ",
+          "Shorts autoplay ",
+          "SponsorBlock ",
+          "Spoof app version ",
+          "Spoof device dimensions ",
+          "Spoof video streams ",
+          "Swipe controls ",
+          "Theme ",
+          "Video quality ",
+          "Voice over translation ",
+          "Wide search bar "
+        ]
       }
     }
   },
@@ -4518,6 +4722,52 @@
           "Third-party lyrics "
         ]
       }
+    },
+    "9.33.52": {
+      "260264": {
+        "patches": "MorpheApp/patches-1.40.0-dev.12.mpp",
+        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.12",
+        "applied_patches": [
+          "Bypass certificate checks ",
+          "Change header ",
+          "Change miniplayer color ",
+          "Change start page ",
+          "Check watch history domain name resolution ",
+          "Crossfade ",
+          "Custom branding ",
+          "Disable DRC audio ",
+          "Disable QUIC protocol ",
+          "Disable dislike redirection ",
+          "Downloads ",
+          "Enable debugging ",
+          "Enable exclusive audio playback ",
+          "Enable forced miniplayer ",
+          "Enable swipe to dismiss miniplayer ",
+          "Force original audio ",
+          "GmsCore support ",
+          "Hide ads ",
+          "Hide buttons ",
+          "Hide filter bar ",
+          "Hide flyout menu components ",
+          "Hide layout components ",
+          "Hide music action buttons ",
+          "Miniplayer previous and next buttons ",
+          "Navigation bar ",
+          "Remember repeat state ",
+          "Remember shuffle state ",
+          "Remove background playback restrictions ",
+          "Remove viewer discretion dialog ",
+          "Return YouTube Dislike ",
+          "Sanitize sharing links ",
+          "Scrobbling ",
+          "Settings menu filter ",
+          "SponsorBlock ",
+          "Spoof app version ",
+          "Spoof video streams ",
+          "Theme ",
+          "Third-party lyrics "
+        ]
+      }
     }
   },
   "reddit-morphe-exp": {
@@ -4721,6 +4971,28 @@
           "Show view count ",
           "Spoof signature "
         ]
+      },
+      "260264": {
+        "patches": "MorpheApp/patches-1.40.0-dev.12.mpp",
+        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.12",
+        "applied_patches": [
+          "Custom font ",
+          "Disable modern home ",
+          "Disable screenshot popup ",
+          "Force system font ",
+          "Hide Ask button ",
+          "Hide Trending shelves ",
+          "Hide ads ",
+          "Hide communities shelf ",
+          "Hide navigation buttons ",
+          "Hide sidebar components ",
+          "Open links directly ",
+          "Open links externally ",
+          "Remove subreddit dialog ",
+          "Sanitize sharing links ",
+          "Show view count ",
+          "Spoof signature "
+        ]
       }
     }
   },
@@ -4883,6 +5155,28 @@
       "260255": {
         "patches": "MorpheApp/patches-1.40.0-dev.9.mpp",
         "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.9",
+        "applied_patches": [
+          "Custom font ",
+          "Disable modern home ",
+          "Disable screenshot popup ",
+          "Force system font ",
+          "Hide Ask button ",
+          "Hide Trending shelves ",
+          "Hide ads ",
+          "Hide communities shelf ",
+          "Hide navigation buttons ",
+          "Hide sidebar components ",
+          "Open links directly ",
+          "Open links externally ",
+          "Remove subreddit dialog ",
+          "Sanitize sharing links ",
+          "Show view count ",
+          "Spoof signature "
+        ]
+      },
+      "260264": {
+        "patches": "MorpheApp/patches-1.40.0-dev.12.mpp",
+        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.12",
         "applied_patches": [
           "Custom font ",
           "Disable modern home ",
@@ -5646,6 +5940,21 @@
           "Change Home Long Click",
           "Add App Trigger"
         ]
+      },
+      "260268": {
+        "patches": "",
+        "changelog": "",
+        "applied_patches": [
+          "Unlock Developer Options",
+          "Remove Snooze Warning",
+          "Remove Ads",
+          "AMOLED Theme",
+          "Get Generation Info",
+          "Copy Instafel Sources",
+          "Add Initialize Instafel",
+          "Change Home Long Click",
+          "Add App Trigger"
+        ]
       }
     },
     "stub(133.0.33)": {
@@ -5776,6 +6085,21 @@
           "Change Home Long Click",
           "Add App Trigger"
         ]
+      },
+      "260268": {
+        "patches": "",
+        "changelog": "",
+        "applied_patches": [
+          "Unlock Developer Options",
+          "Remove Snooze Warning",
+          "Remove Ads",
+          "AMOLED Theme",
+          "Get Generation Info",
+          "Copy Instafel Sources",
+          "Add Initialize Instafel",
+          "Change Home Long Click",
+          "Add App Trigger"
+        ]
       }
     },
     "stub(133.0.33)": {
@@ -5875,6 +6199,14 @@
           "GmsCore support (MicroG) ",
           "Unlock Lifetime Premium "
         ]
+      },
+      "260269": {
+        "patches": "rushiranpise/patches-1.19.0.mpp",
+        "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.19.0",
+        "applied_patches": [
+          "GmsCore support (MicroG) ",
+          "Unlock Lifetime Premium "
+        ]
       }
     },
     "4.14.68": {
@@ -5917,6 +6249,15 @@
           "GmsCore support (MicroG) ",
           "Spoof WARP+ Unlimited UI "
         ]
+      },
+      "260269": {
+        "patches": "rushiranpise/patches-1.19.0.mpp",
+        "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.19.0",
+        "applied_patches": [
+          "Disable Analytics / Telemetry ",
+          "GmsCore support (MicroG) ",
+          "Spoof WARP+ Unlimited UI "
+        ]
       }
     }
   },
@@ -5945,6 +6286,14 @@
           "GmsCore support (MicroG) ",
           "Unlock Premium "
         ]
+      },
+      "260269": {
+        "patches": "rushiranpise/patches-1.19.0.mpp",
+        "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.19.0",
+        "applied_patches": [
+          "GmsCore support (MicroG) ",
+          "Unlock Premium "
+        ]
       }
     }
   },
@@ -5969,6 +6318,14 @@
       "260191": {
         "patches": "rushiranpise/patches-1.17.0.mpp",
         "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.17.0",
+        "applied_patches": [
+          "GmsCore support (MicroG) ",
+          "Unlock Premium "
+        ]
+      },
+      "260269": {
+        "patches": "rushiranpise/patches-1.19.0.mpp",
+        "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.19.0",
         "applied_patches": [
           "GmsCore support (MicroG) ",
           "Unlock Premium "
@@ -6037,6 +6394,14 @@
           "GmsCore support (MicroG) ",
           "Unlock Premium+ "
         ]
+      },
+      "260269": {
+        "patches": "rushiranpise/patches-1.19.0.mpp",
+        "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.19.0",
+        "applied_patches": [
+          "GmsCore support (MicroG) ",
+          "Unlock Premium+ "
+        ]
       }
     }
   },
@@ -6065,6 +6430,14 @@
           "GmsCore support (MicroG) ",
           "Unlock Premium "
         ]
+      },
+      "260269": {
+        "patches": "rushiranpise/patches-1.19.0.mpp",
+        "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.19.0",
+        "applied_patches": [
+          "GmsCore support (MicroG) ",
+          "Unlock Premium "
+        ]
       }
     }
   },
@@ -6089,6 +6462,14 @@
       "260191": {
         "patches": "rushiranpise/patches-1.17.0.mpp",
         "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.17.0",
+        "applied_patches": [
+          "GmsCore support (MicroG) ",
+          "Unlock Premium "
+        ]
+      },
+      "260269": {
+        "patches": "rushiranpise/patches-1.19.0.mpp",
+        "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.19.0",
         "applied_patches": [
           "GmsCore support (MicroG) ",
           "Unlock Premium "
@@ -6139,6 +6520,19 @@
       "260251": {
         "patches": "rushiranpise/patches-1.18.3.mpp",
         "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.18.3",
+        "applied_patches": [
+          "AMOLED dark theme ",
+          "Change package name ",
+          "Enable DCIM folders backup control ",
+          "Fix DCIM folder classification ",
+          "GmsCore support ",
+          "GmsCore support (MicroG) ",
+          "Spoof features "
+        ]
+      },
+      "260269": {
+        "patches": "rushiranpise/patches-1.19.0.mpp",
+        "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.19.0",
         "applied_patches": [
           "AMOLED dark theme ",
           "Change package name ",
@@ -6246,6 +6640,14 @@
       "260200": {
         "patches": "rushiranpise/patches-1.17.0.mpp",
         "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.17.0",
+        "applied_patches": [
+          "GmsCore support (MicroG) ",
+          "Unlock Patron "
+        ]
+      },
+      "260269": {
+        "patches": "rushiranpise/patches-1.19.0.mpp",
+        "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.19.0",
         "applied_patches": [
           "GmsCore support (MicroG) ",
           "Unlock Patron "
@@ -7179,6 +7581,18 @@
           "Spoof signature ",
           "Unlock custom time picker "
         ]
+      },
+      "260263": {
+        "patches": "hxreborn/patches-1.9.1.mpp",
+        "changelog": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.9.1",
+        "applied_patches": [
+          "AMOLED dark theme ",
+          "Hide upgrade upselling ",
+          "Remove 'Sent from' signature ",
+          "Remove free accounts limit ",
+          "Spoof signature ",
+          "Unlock custom time picker "
+        ]
       }
     }
   },
@@ -7227,6 +7641,14 @@
       "260257": {
         "patches": "hxreborn/patches-1.8.0.mpp",
         "changelog": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.8.0",
+        "applied_patches": [
+          "AMOLED dark theme ",
+          "Unlock premium "
+        ]
+      },
+      "260263": {
+        "patches": "hxreborn/patches-1.9.1.mpp",
+        "changelog": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.9.1",
         "applied_patches": [
           "AMOLED dark theme ",
           "Unlock premium "
@@ -7388,6 +7810,17 @@
       "260251": {
         "patches": "RookieEnough/patches-1.2.1.mpp",
         "changelog": "https://github.com/RookieEnough/De-Vanced/releases/tag/v1.2.1",
+        "applied_patches": [
+          "Fix selected account persistence ",
+          "GmsCore support ",
+          "Spoof features "
+        ]
+      }
+    },
+    "7.89.0.966319819": {
+      "260262": {
+        "patches": "RookieEnough/patches-1.2.2.mpp",
+        "changelog": "https://github.com/RookieEnough/De-Vanced/releases/tag/v1.2.2",
         "applied_patches": [
           "Fix selected account persistence ",
           "GmsCore support ",
@@ -7974,6 +8407,108 @@
         "changelog": "https://github.com/hoo-dles/morphe-patches/releases/tag/v1.41.0",
         "applied_patches": [
           "Unlock premium features "
+        ]
+      }
+    }
+  },
+  "rar-morphe": {
+    "7.23.build134": {
+      "260269": {
+        "patches": "rushiranpise/patches-1.19.0.mpp",
+        "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.19.0",
+        "applied_patches": [
+          "GmsCore support (MicroG) ",
+          "Unlock Pro "
+        ]
+      },
+      "260267": {
+        "patches": "rushiranpise/patches-1.18.3.mpp",
+        "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.18.3",
+        "applied_patches": [
+          "GmsCore support (MicroG) ",
+          "Unlock Pro "
+        ]
+      }
+    }
+  },
+  "amazon-india-morphe": {
+    "32.12.4.300": {
+      "260269": {
+        "patches": "rushiranpise/patches-1.19.0.mpp",
+        "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.19.0",
+        "applied_patches": [
+          "Dark mode ",
+          "Disable search suggestions tracking ",
+          "Disable video autoplay ",
+          "Disable video autoplay ",
+          "Fix Amazon manifest conflicts ",
+          "GmsCore support (MicroG) ",
+          "Hide Rufus tab ",
+          "Open links in browser ",
+          "Price history charts ",
+          "Remove ads "
+        ]
+      },
+      "260267": {
+        "patches": "rushiranpise/patches-1.18.3.mpp",
+        "changelog": "https://github.com/rushiranpise/morphe-patches/releases/tag/v1.18.3",
+        "applied_patches": [
+          "Dark mode ",
+          "Disable search suggestions tracking ",
+          "Disable video autoplay ",
+          "Disable video autoplay ",
+          "Fix Amazon manifest conflicts ",
+          "GmsCore support (MicroG) ",
+          "Hide Rufus tab ",
+          "Open links in browser ",
+          "Price history charts ",
+          "Remove ads "
+        ]
+      }
+    }
+  },
+  "brave-browser-morphe-beta": {
+    "1.94.112": {
+      "260266": {
+        "patches": "dh6k/patches-1.2.0.mpp",
+        "changelog": "https://github.com/dh6k/morphe-patches/releases/tag/v1.2.0",
+        "applied_patches": [
+          "Brave Origin "
+        ]
+      }
+    }
+  },
+  "trakt-morphe": {
+    "3.13.0": {
+      "260265": {
+        "patches": "IMXEren/patches-1.5.0.mpp",
+        "changelog": "https://gitlab.com/IMXEren/mix-patches/-/releases/v1.5.0",
+        "applied_patches": [
+          "Unlock pro "
+        ]
+      }
+    }
+  },
+  "brave-browser-morphe": {
+    "1.92.140": {
+      "260265": {
+        "patches": "dh6k/patches-1.2.0.mpp",
+        "changelog": "https://github.com/dh6k/morphe-patches/releases/tag/v1.2.0",
+        "applied_patches": [
+          "Brave Origin "
+        ]
+      }
+    }
+  },
+  "microsoft-edge-morphe": {
+    "151.0.4129.70": {
+      "260263": {
+        "patches": "quantavil/patches-1.35.0.mpp",
+        "changelog": "https://github.com/quantavil/edge-morphe-patches/releases/tag/v1.35.0",
+        "applied_patches": [
+          "Copilot feature toggle ",
+          "Disable news notifications ",
+          "Telemetry elimination "
         ]
       }
     }
