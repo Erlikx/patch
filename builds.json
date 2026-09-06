@@ -1421,6 +1421,19 @@
           "Skip ads ",
           "Clone Prime Video "
         ]
+      },
+      "260370": {
+        "patches": "ajstrick81/patches-1.31.0.mpp",
+        "changelog": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/tag/v1.31.0",
+        "applied_patches": [
+          "Bundle native ad-strip hook ",
+          "Disable auto-updates ",
+          "Load native ad-strip hook ",
+          "Override certificate pinning ",
+          "Prime Video extension ",
+          "Skip ads ",
+          "Clone Prime Video "
+        ]
       }
     }
   },
@@ -1488,6 +1501,14 @@
           "HBO Max - Disable Ads ",
           "HBO Max - Prefer Ad-Free Stream "
         ]
+      },
+      "260370": {
+        "patches": "ajstrick81/patches-1.31.0.mpp",
+        "changelog": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/tag/v1.31.0",
+        "applied_patches": [
+          "HBO Max - Disable Ads ",
+          "HBO Max - Prefer Ad-Free Stream "
+        ]
       }
     }
   },
@@ -1512,6 +1533,14 @@
       "260361": {
         "patches": "ajstrick81/patches-1.30.4.mpp",
         "changelog": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/tag/v1.30.4",
+        "applied_patches": [
+          "Disable auto-updates ",
+          "Skip ads "
+        ]
+      },
+      "260370": {
+        "patches": "ajstrick81/patches-1.31.0.mpp",
+        "changelog": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/tag/v1.31.0",
         "applied_patches": [
           "Disable auto-updates ",
           "Skip ads "
@@ -1541,6 +1570,13 @@
         "applied_patches": [
           "Skip ads "
         ]
+      },
+      "260370": {
+        "patches": "ajstrick81/patches-1.31.0.mpp",
+        "changelog": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/tag/v1.31.0",
+        "applied_patches": [
+          "Skip ads "
+        ]
       }
     }
   },
@@ -1565,6 +1601,24 @@
       "260361": {
         "patches": "ajstrick81/patches-1.30.4.mpp",
         "changelog": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/tag/v1.30.4",
+        "applied_patches": [
+          "Override certificate pinning ",
+          "Skip ads "
+        ]
+      },
+      "260370": {
+        "patches": "ajstrick81/patches-1.31.0.mpp",
+        "changelog": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/tag/v1.31.0",
+        "applied_patches": [
+          "Override certificate pinning ",
+          "Skip ads "
+        ]
+      }
+    },
+    "4.47.2_tv": {
+      "260371": {
+        "patches": "ajstrick81/patches-1.31.0.mpp",
+        "changelog": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/tag/v1.31.0",
         "applied_patches": [
           "Override certificate pinning ",
           "Skip ads "
@@ -1600,46 +1654,20 @@
           "Override certificate pinning ",
           "Skip ads "
         ]
+      },
+      "260370": {
+        "patches": "ajstrick81/patches-1.31.0.mpp",
+        "changelog": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/tag/v1.31.0",
+        "applied_patches": [
+          "Disable auto-updates ",
+          "Override certificate pinning ",
+          "Skip ads "
+        ]
       }
     }
   },
   "tiktok-morphe": {
     "46.2.3": {
-      "260272": {
-        "patches": "icysymmetra/patches-0.7.0-dev.7.mpp",
-        "changelog": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.7.0-dev.7",
-        "applied_patches": [
-          "Always show publish date ",
-          "Copy comments without username ",
-          "Custom offline videos limit ",
-          "Disable login requirement ",
-          "Disable long-press quick share ",
-          "Disable long-press repost ",
-          "Downloads ",
-          "Enable Live search ",
-          "Enable non-personalized search ",
-          "Feature Gate Lab ",
-          "Feed filter ",
-          "Feed tab navigation ",
-          "Fix Google login ",
-          "Hide CAPTCHA popups ",
-          "Hide floating promotions ",
-          "Hide quick comment reactions ",
-          "Hold-and-slide 2x lock ",
-          "Open external links directly ",
-          "Playback speed ",
-          "Remember clear display ",
-          "Resume videos after scrolling ",
-          "SIM spoof ",
-          "Sanitize sharing links ",
-          "Settings ",
-          "Show seekbar ",
-          "Show seekbar thumbnail ",
-          "Stop video looping ",
-          "Translate comments ",
-          "Disable screen capture detection "
-        ]
-      },
       "260289": {
         "patches": "icysymmetra/patches-0.7.0.mpp",
         "changelog": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.7.0",
@@ -1744,91 +1772,50 @@
           "Translate comments ",
           "Disable screen capture detection "
         ]
+      },
+      "260372": {
+        "patches": "icysymmetra/patches-0.8.0-dev.3.mpp",
+        "changelog": "https://github.com/icysymmetra/tiktok-patches-for-morphe/releases/tag/v0.8.0-dev.3",
+        "applied_patches": [
+          "Always show publish date ",
+          "Copy comments without username ",
+          "Custom offline videos limit ",
+          "Disable login requirement ",
+          "Disable long-press quick share ",
+          "Disable long-press repost ",
+          "Downloads ",
+          "Enable Live search ",
+          "Enable non-personalized search ",
+          "Feature Gate Lab ",
+          "Feed filter ",
+          "Feed tab navigation ",
+          "Fix Google login ",
+          "Hide CAPTCHA popups ",
+          "Hide feed LIVE button ",
+          "Hide feed follow button ",
+          "Hide feed save button ",
+          "Hide feed search button ",
+          "Hide floating promotions ",
+          "Hide quick comment reactions ",
+          "Hold-and-slide 2x lock ",
+          "Open external links directly ",
+          "Playback speed ",
+          "Region spoof ",
+          "Remember clear display ",
+          "Resume videos after scrolling ",
+          "Sanitize sharing links ",
+          "Settings ",
+          "Show seekbar ",
+          "Show seekbar thumbnail ",
+          "Stop video looping ",
+          "Translate comments ",
+          "Disable screen capture detection "
+        ]
       }
     }
   },
   "youtube-morphe": {
     "21.04.223": {
-      "260271": {
-        "patches": "MorpheApp/patches-1.40.0-dev.13.mpp",
-        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.13",
-        "applied_patches": [
-          "Add to queue ",
-          "Alternative thumbnails ",
-          "Ambient mode ",
-          "Bypass image region restrictions ",
-          "Bypass link redirects ",
-          "Captions ",
-          "Change form factor ",
-          "Change header ",
-          "Change start page ",
-          "Check watch history domain name resolution ",
-          "Copy video link ",
-          "Custom branding ",
-          "Custom player overlay opacity ",
-          "Disable DRC audio ",
-          "Disable QUIC protocol ",
-          "Disable Shorts resuming on startup ",
-          "Disable double tap actions ",
-          "Disable fullscreen gestures ",
-          "Disable haptic feedback ",
-          "Disable layout updates ",
-          "Disable player popup panels ",
-          "Disable rolling number animations ",
-          "Disable sign in to TV popup ",
-          "Disable video codecs ",
-          "Double tap to seek ",
-          "Downloads ",
-          "Enable debugging ",
-          "Exit fullscreen mode ",
-          "Force original audio ",
-          "GmsCore support ",
-          "Hide Shorts components ",
-          "Hide ads ",
-          "Hide autoplay preview ",
-          "Hide end screen cards ",
-          "Hide end screen suggested video ",
-          "Hide info cards ",
-          "Hide layout components ",
-          "Hide player flyout menu components ",
-          "Hide player overlay buttons ",
-          "Hide related video overlay ",
-          "Hide related videos ",
-          "Hide timestamp ",
-          "Hide video action buttons ",
-          "Loop video ",
-          "Media notification controls ",
-          "Miniplayer ",
-          "Navigation bar ",
-          "Open Shorts in regular player ",
-          "Open channel of live avatar ",
-          "Open links externally ",
-          "Open system share sheet ",
-          "Open videos fullscreen ",
-          "Override YouTube Music buttons ",
-          "Play all ",
-          "Playback in feeds ",
-          "Playback speed ",
-          "Reload video ",
-          "Remove background playback restrictions ",
-          "Remove viewer discretion dialog ",
-          "Return YouTube Dislike ",
-          "Sanitize sharing links ",
-          "Save to watch later ",
-          "Seekbar ",
-          "Settings menu filter ",
-          "Shorts autoplay ",
-          "SponsorBlock ",
-          "Spoof app version ",
-          "Spoof device dimensions ",
-          "Spoof video streams ",
-          "Swipe controls ",
-          "Theme ",
-          "Video quality ",
-          "Voice over translation ",
-          "Wide search bar "
-        ]
-      },
       "260280": {
         "patches": "MorpheApp/patches-1.40.0-dev.16.mpp",
         "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.16",
@@ -1912,86 +1899,6 @@
       "260279": {
         "patches": "MorpheApp/patches-1.40.0-dev.15.mpp",
         "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.15",
-        "applied_patches": [
-          "Add to queue ",
-          "Alternative thumbnails ",
-          "Ambient mode ",
-          "Bypass image region restrictions ",
-          "Bypass link redirects ",
-          "Captions ",
-          "Change form factor ",
-          "Change header ",
-          "Change start page ",
-          "Check watch history domain name resolution ",
-          "Copy video link ",
-          "Custom branding ",
-          "Custom player overlay opacity ",
-          "Disable DRC audio ",
-          "Disable QUIC protocol ",
-          "Disable Shorts resuming on startup ",
-          "Disable double tap actions ",
-          "Disable fullscreen gestures ",
-          "Disable haptic feedback ",
-          "Disable layout updates ",
-          "Disable player popup panels ",
-          "Disable rolling number animations ",
-          "Disable sign in to TV popup ",
-          "Disable video codecs ",
-          "Double tap to seek ",
-          "Downloads ",
-          "Enable debugging ",
-          "Exit fullscreen mode ",
-          "Force original audio ",
-          "GmsCore support ",
-          "Hide Shorts components ",
-          "Hide ads ",
-          "Hide autoplay preview ",
-          "Hide end screen cards ",
-          "Hide end screen suggested video ",
-          "Hide info cards ",
-          "Hide layout components ",
-          "Hide player flyout menu components ",
-          "Hide player overlay buttons ",
-          "Hide related video overlay ",
-          "Hide related videos ",
-          "Hide timestamp ",
-          "Hide video action buttons ",
-          "Loop video ",
-          "Media notification controls ",
-          "Miniplayer ",
-          "Navigation bar ",
-          "Open Shorts in regular player ",
-          "Open channel of live avatar ",
-          "Open links externally ",
-          "Open system share sheet ",
-          "Open videos fullscreen ",
-          "Override YouTube Music buttons ",
-          "Play all ",
-          "Playback in feeds ",
-          "Playback speed ",
-          "Reload video ",
-          "Remove background playback restrictions ",
-          "Remove viewer discretion dialog ",
-          "Return YouTube Dislike ",
-          "Sanitize sharing links ",
-          "Save to watch later ",
-          "Seekbar ",
-          "Settings menu filter ",
-          "Shorts autoplay ",
-          "SponsorBlock ",
-          "Spoof app version ",
-          "Spoof device dimensions ",
-          "Spoof video streams ",
-          "Swipe controls ",
-          "Theme ",
-          "Video quality ",
-          "Voice over translation ",
-          "Wide search bar "
-        ]
-      },
-      "260276": {
-        "patches": "MorpheApp/patches-1.40.0-dev.14.mpp",
-        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.14",
         "applied_patches": [
           "Add to queue ",
           "Alternative thumbnails ",
@@ -3734,55 +3641,97 @@
           "Voice over translation ",
           "Wide search bar "
         ]
+      },
+      "260368": {
+        "patches": "MorpheApp/patches-1.42.0-dev.3.mpp",
+        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.0-dev.3",
+        "applied_patches": [
+          "Add to queue ",
+          "Alternative thumbnails ",
+          "Ambient mode ",
+          "App refresh rate ",
+          "Bypass image region restrictions ",
+          "Bypass link redirects ",
+          "Captions ",
+          "Change form factor ",
+          "Change header ",
+          "Change start page ",
+          "Check watch history domain name resolution ",
+          "Copy video link ",
+          "Custom branding ",
+          "Custom player overlay opacity ",
+          "Disable DRC audio ",
+          "Disable QUIC protocol ",
+          "Disable Shorts resuming on startup ",
+          "Disable double tap actions ",
+          "Disable fullscreen gestures ",
+          "Disable haptic feedback ",
+          "Disable layout updates ",
+          "Disable player popup panels ",
+          "Disable playlist autoplay ",
+          "Disable rolling number animations ",
+          "Disable scrolling speed limit ",
+          "Disable sign in to TV popup ",
+          "Disable video codecs ",
+          "Double tap to seek ",
+          "Downloads ",
+          "Enable debugging ",
+          "Exit fullscreen mode ",
+          "Force original audio ",
+          "Fullscreen video scale ",
+          "GmsCore support ",
+          "Hide Shorts components ",
+          "Hide ads ",
+          "Hide autoplay preview ",
+          "Hide end screen cards ",
+          "Hide end screen suggested video ",
+          "Hide info cards ",
+          "Hide layout components ",
+          "Hide player flyout menu components ",
+          "Hide player overlay buttons ",
+          "Hide related video overlay ",
+          "Hide related videos ",
+          "Hide timestamp ",
+          "Hide video action buttons ",
+          "Loop video ",
+          "Media notification controls ",
+          "Miniplayer ",
+          "Mute button ",
+          "Navigation bar ",
+          "Open Shorts in regular player ",
+          "Open channel of live avatar ",
+          "Open links externally ",
+          "Open system share sheet ",
+          "Open videos fullscreen ",
+          "Override YouTube Music buttons ",
+          "Play all ",
+          "Playback in feeds ",
+          "Playback speed ",
+          "PoToken provider ",
+          "Reload video ",
+          "Remove background playback restrictions ",
+          "Remove viewer discretion dialog ",
+          "Return YouTube Dislike ",
+          "Sanitize sharing links ",
+          "Save to Watch later ",
+          "Seekbar ",
+          "Settings menu filter ",
+          "Shorts autoplay ",
+          "SponsorBlock ",
+          "Spoof app version ",
+          "Spoof device dimensions ",
+          "Spoof video streams ",
+          "Swipe controls ",
+          "Theme ",
+          "Video quality ",
+          "Voice over translation ",
+          "Wide search bar "
+        ]
       }
     }
   },
   "youtube-music-morphe": {
     "9.15.51": {
-      "260271": {
-        "patches": "MorpheApp/patches-1.40.0-dev.13.mpp",
-        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.13",
-        "applied_patches": [
-          "Bypass certificate checks ",
-          "Change header ",
-          "Change miniplayer color ",
-          "Change start page ",
-          "Check watch history domain name resolution ",
-          "Crossfade ",
-          "Custom branding ",
-          "Disable DRC audio ",
-          "Disable QUIC protocol ",
-          "Disable dislike redirection ",
-          "Downloads ",
-          "Enable debugging ",
-          "Enable exclusive audio playback ",
-          "Enable forced miniplayer ",
-          "Enable swipe to dismiss miniplayer ",
-          "Force original audio ",
-          "GmsCore support ",
-          "Hide ads ",
-          "Hide buttons ",
-          "Hide filter bar ",
-          "Hide flyout menu components ",
-          "Hide layout components ",
-          "Hide music action buttons ",
-          "Miniplayer previous and next buttons ",
-          "Navigation bar ",
-          "Remember repeat state ",
-          "Remember shuffle state ",
-          "Remove background playback restrictions ",
-          "Remove viewer discretion dialog ",
-          "Return YouTube Dislike ",
-          "Sanitize sharing links ",
-          "Scrobbling ",
-          "Settings menu filter ",
-          "SponsorBlock ",
-          "Spoof app version ",
-          "Spoof video streams ",
-          "Theme ",
-          "Third-party lyrics "
-        ]
-      },
       "260280": {
         "patches": "MorpheApp/patches-1.40.0-dev.16.mpp",
         "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.16",
@@ -3830,50 +3779,6 @@
       "260279": {
         "patches": "MorpheApp/patches-1.40.0-dev.15.mpp",
         "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.15",
-        "applied_patches": [
-          "Bypass certificate checks ",
-          "Change header ",
-          "Change miniplayer color ",
-          "Change start page ",
-          "Check watch history domain name resolution ",
-          "Crossfade ",
-          "Custom branding ",
-          "Disable DRC audio ",
-          "Disable QUIC protocol ",
-          "Disable dislike redirection ",
-          "Downloads ",
-          "Enable debugging ",
-          "Enable exclusive audio playback ",
-          "Enable forced miniplayer ",
-          "Enable swipe to dismiss miniplayer ",
-          "Force original audio ",
-          "GmsCore support ",
-          "Hide ads ",
-          "Hide buttons ",
-          "Hide filter bar ",
-          "Hide flyout menu components ",
-          "Hide layout components ",
-          "Hide music action buttons ",
-          "Miniplayer previous and next buttons ",
-          "Navigation bar ",
-          "Remember repeat state ",
-          "Remember shuffle state ",
-          "Remove background playback restrictions ",
-          "Remove viewer discretion dialog ",
-          "Return YouTube Dislike ",
-          "Sanitize sharing links ",
-          "Scrobbling ",
-          "Settings menu filter ",
-          "SponsorBlock ",
-          "Spoof app version ",
-          "Spoof video streams ",
-          "Theme ",
-          "Third-party lyrics "
-        ]
-      },
-      "260276": {
-        "patches": "MorpheApp/patches-1.40.0-dev.14.mpp",
-        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.14",
         "applied_patches": [
           "Bypass certificate checks ",
           "Change header ",
@@ -4594,91 +4499,58 @@
           "Theme ",
           "Third-party lyrics "
         ]
+      },
+      "260368": {
+        "patches": "MorpheApp/patches-1.42.0-dev.3.mpp",
+        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.0-dev.3",
+        "applied_patches": [
+          "App refresh rate ",
+          "Bypass certificate checks ",
+          "Change header ",
+          "Change miniplayer color ",
+          "Change start page ",
+          "Check watch history domain name resolution ",
+          "Crossfade ",
+          "Custom branding ",
+          "Disable DRC audio ",
+          "Disable QUIC protocol ",
+          "Disable dislike redirection ",
+          "Downloads ",
+          "Enable debugging ",
+          "Enable exclusive audio playback ",
+          "Enable forced miniplayer ",
+          "Enable swipe to dismiss miniplayer ",
+          "Force original audio ",
+          "GmsCore support ",
+          "Hide ads ",
+          "Hide buttons ",
+          "Hide filter bar ",
+          "Hide flyout menu components ",
+          "Hide layout components ",
+          "Hide music action buttons ",
+          "Miniplayer previous and next buttons ",
+          "Navigation bar ",
+          "Play albums songs ",
+          "PoToken provider ",
+          "Remember repeat state ",
+          "Remember shuffle state ",
+          "Remove background playback restrictions ",
+          "Remove viewer discretion dialog ",
+          "Return YouTube Dislike ",
+          "Sanitize sharing links ",
+          "Scrobbling ",
+          "Settings menu filter ",
+          "SponsorBlock ",
+          "Spoof app version ",
+          "Spoof video streams ",
+          "Theme ",
+          "Third-party lyrics "
+        ]
       }
     }
   },
   "youtube-morphe-exp": {
     "21.33.321": {
-      "260271": {
-        "patches": "MorpheApp/patches-1.40.0-dev.13.mpp",
-        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.13",
-        "applied_patches": [
-          "Add to queue ",
-          "Alternative thumbnails ",
-          "Ambient mode ",
-          "Bypass image region restrictions ",
-          "Bypass link redirects ",
-          "Captions ",
-          "Change form factor ",
-          "Change header ",
-          "Change start page ",
-          "Check watch history domain name resolution ",
-          "Copy video link ",
-          "Custom branding ",
-          "Custom player overlay opacity ",
-          "Disable DRC audio ",
-          "Disable QUIC protocol ",
-          "Disable Shorts resuming on startup ",
-          "Disable double tap actions ",
-          "Disable fullscreen gestures ",
-          "Disable haptic feedback ",
-          "Disable layout updates ",
-          "Disable player popup panels ",
-          "Disable rolling number animations ",
-          "Disable sign in to TV popup ",
-          "Disable video codecs ",
-          "Double tap to seek ",
-          "Downloads ",
-          "Enable debugging ",
-          "Exit fullscreen mode ",
-          "Force original audio ",
-          "GmsCore support ",
-          "Hide Shorts components ",
-          "Hide ads ",
-          "Hide autoplay preview ",
-          "Hide end screen cards ",
-          "Hide end screen suggested video ",
-          "Hide info cards ",
-          "Hide layout components ",
-          "Hide player flyout menu components ",
-          "Hide player overlay buttons ",
-          "Hide related video overlay ",
-          "Hide related videos ",
-          "Hide timestamp ",
-          "Hide video action buttons ",
-          "Loop video ",
-          "Media notification controls ",
-          "Miniplayer ",
-          "Navigation bar ",
-          "Open Shorts in regular player ",
-          "Open channel of live avatar ",
-          "Open links externally ",
-          "Open system share sheet ",
-          "Open videos fullscreen ",
-          "Override YouTube Music buttons ",
-          "Play all ",
-          "Playback in feeds ",
-          "Playback speed ",
-          "Reload video ",
-          "Remove background playback restrictions ",
-          "Remove viewer discretion dialog ",
-          "Return YouTube Dislike ",
-          "Sanitize sharing links ",
-          "Save to watch later ",
-          "Seekbar ",
-          "Settings menu filter ",
-          "Shorts autoplay ",
-          "SponsorBlock ",
-          "Spoof app version ",
-          "Spoof device dimensions ",
-          "Spoof video streams ",
-          "Swipe controls ",
-          "Theme ",
-          "Video quality ",
-          "Voice over translation ",
-          "Wide search bar "
-        ]
-      },
       "260280": {
         "patches": "MorpheApp/patches-1.40.0-dev.16.mpp",
         "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.16",
@@ -4762,86 +4634,6 @@
       "260279": {
         "patches": "MorpheApp/patches-1.40.0-dev.15.mpp",
         "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.15",
-        "applied_patches": [
-          "Add to queue ",
-          "Alternative thumbnails ",
-          "Ambient mode ",
-          "Bypass image region restrictions ",
-          "Bypass link redirects ",
-          "Captions ",
-          "Change form factor ",
-          "Change header ",
-          "Change start page ",
-          "Check watch history domain name resolution ",
-          "Copy video link ",
-          "Custom branding ",
-          "Custom player overlay opacity ",
-          "Disable DRC audio ",
-          "Disable QUIC protocol ",
-          "Disable Shorts resuming on startup ",
-          "Disable double tap actions ",
-          "Disable fullscreen gestures ",
-          "Disable haptic feedback ",
-          "Disable layout updates ",
-          "Disable player popup panels ",
-          "Disable rolling number animations ",
-          "Disable sign in to TV popup ",
-          "Disable video codecs ",
-          "Double tap to seek ",
-          "Downloads ",
-          "Enable debugging ",
-          "Exit fullscreen mode ",
-          "Force original audio ",
-          "GmsCore support ",
-          "Hide Shorts components ",
-          "Hide ads ",
-          "Hide autoplay preview ",
-          "Hide end screen cards ",
-          "Hide end screen suggested video ",
-          "Hide info cards ",
-          "Hide layout components ",
-          "Hide player flyout menu components ",
-          "Hide player overlay buttons ",
-          "Hide related video overlay ",
-          "Hide related videos ",
-          "Hide timestamp ",
-          "Hide video action buttons ",
-          "Loop video ",
-          "Media notification controls ",
-          "Miniplayer ",
-          "Navigation bar ",
-          "Open Shorts in regular player ",
-          "Open channel of live avatar ",
-          "Open links externally ",
-          "Open system share sheet ",
-          "Open videos fullscreen ",
-          "Override YouTube Music buttons ",
-          "Play all ",
-          "Playback in feeds ",
-          "Playback speed ",
-          "Reload video ",
-          "Remove background playback restrictions ",
-          "Remove viewer discretion dialog ",
-          "Return YouTube Dislike ",
-          "Sanitize sharing links ",
-          "Save to watch later ",
-          "Seekbar ",
-          "Settings menu filter ",
-          "Shorts autoplay ",
-          "SponsorBlock ",
-          "Spoof app version ",
-          "Spoof device dimensions ",
-          "Spoof video streams ",
-          "Swipe controls ",
-          "Theme ",
-          "Video quality ",
-          "Voice over translation ",
-          "Wide search bar "
-        ]
-      },
-      "260276": {
-        "patches": "MorpheApp/patches-1.40.0-dev.14.mpp",
-        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.14",
         "applied_patches": [
           "Add to queue ",
           "Alternative thumbnails ",
@@ -6586,55 +6378,97 @@
           "Voice over translation ",
           "Wide search bar "
         ]
+      },
+      "260368": {
+        "patches": "MorpheApp/patches-1.42.0-dev.3.mpp",
+        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.0-dev.3",
+        "applied_patches": [
+          "Add to queue ",
+          "Alternative thumbnails ",
+          "Ambient mode ",
+          "App refresh rate ",
+          "Bypass image region restrictions ",
+          "Bypass link redirects ",
+          "Captions ",
+          "Change form factor ",
+          "Change header ",
+          "Change start page ",
+          "Check watch history domain name resolution ",
+          "Copy video link ",
+          "Custom branding ",
+          "Custom player overlay opacity ",
+          "Disable DRC audio ",
+          "Disable QUIC protocol ",
+          "Disable Shorts resuming on startup ",
+          "Disable double tap actions ",
+          "Disable fullscreen gestures ",
+          "Disable haptic feedback ",
+          "Disable layout updates ",
+          "Disable player popup panels ",
+          "Disable playlist autoplay ",
+          "Disable rolling number animations ",
+          "Disable scrolling speed limit ",
+          "Disable sign in to TV popup ",
+          "Disable video codecs ",
+          "Double tap to seek ",
+          "Downloads ",
+          "Enable debugging ",
+          "Exit fullscreen mode ",
+          "Force original audio ",
+          "Fullscreen video scale ",
+          "GmsCore support ",
+          "Hide Shorts components ",
+          "Hide ads ",
+          "Hide autoplay preview ",
+          "Hide end screen cards ",
+          "Hide end screen suggested video ",
+          "Hide info cards ",
+          "Hide layout components ",
+          "Hide player flyout menu components ",
+          "Hide player overlay buttons ",
+          "Hide related video overlay ",
+          "Hide related videos ",
+          "Hide timestamp ",
+          "Hide video action buttons ",
+          "Loop video ",
+          "Media notification controls ",
+          "Miniplayer ",
+          "Mute button ",
+          "Navigation bar ",
+          "Open Shorts in regular player ",
+          "Open channel of live avatar ",
+          "Open links externally ",
+          "Open system share sheet ",
+          "Open videos fullscreen ",
+          "Override YouTube Music buttons ",
+          "Play all ",
+          "Playback in feeds ",
+          "Playback speed ",
+          "PoToken provider ",
+          "Reload video ",
+          "Remove background playback restrictions ",
+          "Remove viewer discretion dialog ",
+          "Return YouTube Dislike ",
+          "Sanitize sharing links ",
+          "Save to Watch later ",
+          "Seekbar ",
+          "Settings menu filter ",
+          "Shorts autoplay ",
+          "SponsorBlock ",
+          "Spoof app version ",
+          "Spoof device dimensions ",
+          "Spoof video streams ",
+          "Swipe controls ",
+          "Theme ",
+          "Video quality ",
+          "Voice over translation ",
+          "Wide search bar "
+        ]
       }
     }
   },
   "youtube-music-morphe-exp": {
     "9.33.52": {
-      "260271": {
-        "patches": "MorpheApp/patches-1.40.0-dev.13.mpp",
-        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.13",
-        "applied_patches": [
-          "Bypass certificate checks ",
-          "Change header ",
-          "Change miniplayer color ",
-          "Change start page ",
-          "Check watch history domain name resolution ",
-          "Crossfade ",
-          "Custom branding ",
-          "Disable DRC audio ",
-          "Disable QUIC protocol ",
-          "Disable dislike redirection ",
-          "Downloads ",
-          "Enable debugging ",
-          "Enable exclusive audio playback ",
-          "Enable forced miniplayer ",
-          "Enable swipe to dismiss miniplayer ",
-          "Force original audio ",
-          "GmsCore support ",
-          "Hide ads ",
-          "Hide buttons ",
-          "Hide filter bar ",
-          "Hide flyout menu components ",
-          "Hide layout components ",
-          "Hide music action buttons ",
-          "Miniplayer previous and next buttons ",
-          "Navigation bar ",
-          "Remember repeat state ",
-          "Remember shuffle state ",
-          "Remove background playback restrictions ",
-          "Remove viewer discretion dialog ",
-          "Return YouTube Dislike ",
-          "Sanitize sharing links ",
-          "Scrobbling ",
-          "Settings menu filter ",
-          "SponsorBlock ",
-          "Spoof app version ",
-          "Spoof video streams ",
-          "Theme ",
-          "Third-party lyrics "
-        ]
-      },
       "260280": {
         "patches": "MorpheApp/patches-1.40.0-dev.16.mpp",
         "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.16",
@@ -6682,50 +6516,6 @@
       "260279": {
         "patches": "MorpheApp/patches-1.40.0-dev.15.mpp",
         "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.15",
-        "applied_patches": [
-          "Bypass certificate checks ",
-          "Change header ",
-          "Change miniplayer color ",
-          "Change start page ",
-          "Check watch history domain name resolution ",
-          "Crossfade ",
-          "Custom branding ",
-          "Disable DRC audio ",
-          "Disable QUIC protocol ",
-          "Disable dislike redirection ",
-          "Downloads ",
-          "Enable debugging ",
-          "Enable exclusive audio playback ",
-          "Enable forced miniplayer ",
-          "Enable swipe to dismiss miniplayer ",
-          "Force original audio ",
-          "GmsCore support ",
-          "Hide ads ",
-          "Hide buttons ",
-          "Hide filter bar ",
-          "Hide flyout menu components ",
-          "Hide layout components ",
-          "Hide music action buttons ",
-          "Miniplayer previous and next buttons ",
-          "Navigation bar ",
-          "Remember repeat state ",
-          "Remember shuffle state ",
-          "Remove background playback restrictions ",
-          "Remove viewer discretion dialog ",
-          "Return YouTube Dislike ",
-          "Sanitize sharing links ",
-          "Scrobbling ",
-          "Settings menu filter ",
-          "SponsorBlock ",
-          "Spoof app version ",
-          "Spoof video streams ",
-          "Theme ",
-          "Third-party lyrics "
-        ]
-      },
-      "260276": {
-        "patches": "MorpheApp/patches-1.40.0-dev.14.mpp",
-        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.14",
         "applied_patches": [
           "Bypass certificate checks ",
           "Change header ",
@@ -7450,34 +7240,57 @@
           "Theme ",
           "Third-party lyrics "
         ]
+      },
+      "260368": {
+        "patches": "MorpheApp/patches-1.42.0-dev.3.mpp",
+        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.0-dev.3",
+        "applied_patches": [
+          "App refresh rate ",
+          "Bypass certificate checks ",
+          "Change header ",
+          "Change miniplayer color ",
+          "Change start page ",
+          "Check watch history domain name resolution ",
+          "Crossfade ",
+          "Custom branding ",
+          "Disable DRC audio ",
+          "Disable QUIC protocol ",
+          "Disable dislike redirection ",
+          "Downloads ",
+          "Enable debugging ",
+          "Enable exclusive audio playback ",
+          "Enable forced miniplayer ",
+          "Enable swipe to dismiss miniplayer ",
+          "Force original audio ",
+          "GmsCore support ",
+          "Hide ads ",
+          "Hide buttons ",
+          "Hide filter bar ",
+          "Hide flyout menu components ",
+          "Hide layout components ",
+          "Hide music action buttons ",
+          "Miniplayer previous and next buttons ",
+          "Navigation bar ",
+          "Play albums songs ",
+          "PoToken provider ",
+          "Remember repeat state ",
+          "Remember shuffle state ",
+          "Remove background playback restrictions ",
+          "Remove viewer discretion dialog ",
+          "Return YouTube Dislike ",
+          "Sanitize sharing links ",
+          "Scrobbling ",
+          "Settings menu filter ",
+          "SponsorBlock ",
+          "Spoof app version ",
+          "Spoof video streams ",
+          "Theme ",
+          "Third-party lyrics "
+        ]
       }
     }
   },
   "reddit-morphe-exp": {
-    "2026.32.0": {
-      "260271": {
-        "patches": "MorpheApp/patches-1.40.0-dev.13.mpp",
-        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.13",
-        "applied_patches": [
-          "Custom font ",
-          "Disable modern home ",
-          "Disable screenshot popup ",
-          "Force system font ",
-          "Hide Ask button ",
-          "Hide Trending shelves ",
-          "Hide ads ",
-          "Hide communities shelf ",
-          "Hide navigation buttons ",
-          "Hide sidebar components ",
-          "Open links directly ",
-          "Open links externally ",
-          "Remove subreddit dialog ",
-          "Sanitize sharing links ",
-          "Show view count ",
-          "Spoof signature "
-        ]
-      }
-    },
     "2026.34.0": {
       "260280": {
         "patches": "MorpheApp/patches-1.40.0-dev.16.mpp",
@@ -7504,28 +7317,6 @@
       "260279": {
         "patches": "MorpheApp/patches-1.40.0-dev.15.mpp",
         "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.15",
-        "applied_patches": [
-          "Custom font ",
-          "Disable modern home ",
-          "Disable screenshot popup ",
-          "Force system font ",
-          "Hide Ask button ",
-          "Hide Trending shelves ",
-          "Hide ads ",
-          "Hide communities shelf ",
-          "Hide navigation buttons ",
-          "Hide sidebar components ",
-          "Open links directly ",
-          "Open links externally ",
-          "Remove subreddit dialog ",
-          "Sanitize sharing links ",
-          "Show view count ",
-          "Spoof signature "
-        ]
-      },
-      "260276": {
-        "patches": "MorpheApp/patches-1.40.0-dev.14.mpp",
-        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.14",
         "applied_patches": [
           "Custom font ",
           "Disable modern home ",
@@ -7898,14 +7689,10 @@
           "Show view count ",
           "Spoof signature "
         ]
-      }
-    }
-  },
-  "reddit-morphe": {
-    "2026.14.0": {
-      "260271": {
-        "patches": "MorpheApp/patches-1.40.0-dev.13.mpp",
-        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.13",
+      },
+      "260368": {
+        "patches": "MorpheApp/patches-1.42.0-dev.3.mpp",
+        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.0-dev.3",
         "applied_patches": [
           "Custom font ",
           "Disable modern home ",
@@ -7924,7 +7711,11 @@
           "Show view count ",
           "Spoof signature "
         ]
-      },
+      }
+    }
+  },
+  "reddit-morphe": {
+    "2026.14.0": {
       "260280": {
         "patches": "MorpheApp/patches-1.40.0-dev.16.mpp",
         "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.16",
@@ -7950,28 +7741,6 @@
       "260279": {
         "patches": "MorpheApp/patches-1.40.0-dev.15.mpp",
         "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.15",
-        "applied_patches": [
-          "Custom font ",
-          "Disable modern home ",
-          "Disable screenshot popup ",
-          "Force system font ",
-          "Hide Ask button ",
-          "Hide Trending shelves ",
-          "Hide ads ",
-          "Hide communities shelf ",
-          "Hide navigation buttons ",
-          "Hide sidebar components ",
-          "Open links directly ",
-          "Open links externally ",
-          "Remove subreddit dialog ",
-          "Sanitize sharing links ",
-          "Show view count ",
-          "Spoof signature "
-        ]
-      },
-      "260276": {
-        "patches": "MorpheApp/patches-1.40.0-dev.14.mpp",
-        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.40.0-dev.14",
         "applied_patches": [
           "Custom font ",
           "Disable modern home ",
@@ -8324,6 +8093,28 @@
       "260363": {
         "patches": "MorpheApp/patches-1.42.0-dev.2.mpp",
         "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.0-dev.2",
+        "applied_patches": [
+          "Custom font ",
+          "Disable modern home ",
+          "Disable screenshot popup ",
+          "Force system font ",
+          "Hide Ask button ",
+          "Hide Trending shelves ",
+          "Hide ads ",
+          "Hide communities shelf ",
+          "Hide navigation buttons ",
+          "Hide sidebar components ",
+          "Open links directly ",
+          "Open links externally ",
+          "Remove subreddit dialog ",
+          "Sanitize sharing links ",
+          "Show view count ",
+          "Spoof signature "
+        ]
+      },
+      "260368": {
+        "patches": "MorpheApp/patches-1.42.0-dev.3.mpp",
+        "changelog": "https://github.com/MorpheApp/morphe-patches/releases/tag/v1.42.0-dev.3",
         "applied_patches": [
           "Custom font ",
           "Disable modern home ",
@@ -11400,35 +11191,21 @@
           "Remove Netflix ads (loader) ",
           "Clone Netflix "
         ]
+      },
+      "260370": {
+        "patches": "ajstrick81/patches-1.31.0.mpp",
+        "changelog": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/tag/v1.31.0",
+        "applied_patches": [
+          "Disable Netflix CertCheck ",
+          "Remove Netflix ads (bundle engine) ",
+          "Remove Netflix ads (loader) ",
+          "Clone Netflix "
+        ]
       }
     }
   },
   "proton-mail-morphe": {
     "7.10.4": {
-      "260270": {
-        "patches": "hxreborn/patches-1.9.2.mpp",
-        "changelog": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.9.2",
-        "applied_patches": [
-          "AMOLED dark theme ",
-          "Hide upgrade upselling ",
-          "Remove 'Sent from' signature ",
-          "Remove free accounts limit ",
-          "Spoof signature ",
-          "Unlock custom time picker "
-        ]
-      },
-      "260275": {
-        "patches": "hxreborn/patches-1.10.0.mpp",
-        "changelog": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.10.0",
-        "applied_patches": [
-          "AMOLED dark theme ",
-          "Hide upgrade upselling ",
-          "Remove 'Sent from' signature ",
-          "Remove free accounts limit ",
-          "Spoof signature ",
-          "Unlock custom time picker "
-        ]
-      },
       "260296": {
         "patches": "hxreborn/patches-1.11.0.mpp",
         "changelog": "https://github.com/hxreborn/morphe-patches/releases/tag/v1.11.0",
@@ -12822,16 +12599,18 @@
   },
   "brave-browser-morphe-beta": {
     "1.94.112": {
-      "260274": {
-        "patches": "dh6k/patches-1.3.0.mpp",
-        "changelog": "https://github.com/dh6k/morphe-patches/releases/tag/v1.3.0",
-        "applied_patches": [
-          "Brave Origin "
-        ]
-      },
       "260300": {
         "patches": "dh6k/patches-1.4.0.mpp",
         "changelog": "https://github.com/dh6k/morphe-patches/releases/tag/v1.4.0",
+        "applied_patches": [
+          "Brave Origin "
+        ]
+      }
+    },
+    "1.96.46": {
+      "260373": {
+        "patches": "dh6k/patches-1.5.0.mpp",
+        "changelog": "https://github.com/dh6k/morphe-patches/releases/tag/v1.5.0",
         "applied_patches": [
           "Brave Origin "
         ]
@@ -12850,15 +12629,6 @@
     }
   },
   "brave-browser-morphe": {
-    "1.92.140": {
-      "260274": {
-        "patches": "dh6k/patches-1.3.0.mpp",
-        "changelog": "https://github.com/dh6k/morphe-patches/releases/tag/v1.3.0",
-        "applied_patches": [
-          "Brave Origin "
-        ]
-      }
-    },
     "1.93.138": {
       "260283": {
         "patches": "kveld9/patches-1.3.0.mpp",
@@ -13007,16 +12777,18 @@
   },
   "brave-browser-morphe-nightly": {
     "1.95.76": {
-      "260274": {
-        "patches": "dh6k/patches-1.3.0.mpp",
-        "changelog": "https://github.com/dh6k/morphe-patches/releases/tag/v1.3.0",
-        "applied_patches": [
-          "Brave Origin "
-        ]
-      },
       "260300": {
         "patches": "dh6k/patches-1.4.0.mpp",
         "changelog": "https://github.com/dh6k/morphe-patches/releases/tag/v1.4.0",
+        "applied_patches": [
+          "Brave Origin "
+        ]
+      }
+    },
+    "1.97.8": {
+      "260373": {
+        "patches": "dh6k/patches-1.5.0.mpp",
+        "changelog": "https://github.com/dh6k/morphe-patches/releases/tag/v1.5.0",
         "applied_patches": [
           "Brave Origin "
         ]
@@ -13131,6 +12903,45 @@
           "Remember clear display ",
           "Resume videos after scrolling ",
           "SIM spoof ",
+          "Sanitize sharing links ",
+          "Settings ",
+          "Show seekbar ",
+          "Show seekbar thumbnail ",
+          "Stop video looping ",
+          "Translate comments ",
+          "Disable screen capture detection "
+        ]
+      },
+      "260369": {
+        "patches": "hxreborn/patches-1.1.0.mpp",
+        "changelog": "https://github.com/hxreborn/hxreborn-tiktok-patches/releases/tag/v1.1.0",
+        "applied_patches": [
+          "Always show publish date ",
+          "Copy comments without username ",
+          "Custom offline videos limit ",
+          "Disable login requirement ",
+          "Disable long-press quick share ",
+          "Disable long-press repost ",
+          "Disable telemetry ",
+          "Downloads ",
+          "Enable Live search ",
+          "Enable non-personalized search ",
+          "Expand activity list ",
+          "Feature Gate Lab ",
+          "Feed filter ",
+          "Feed tab navigation ",
+          "Fix Google login ",
+          "Hide BdTuring CAPTCHA popups ",
+          "Hide CAPTCHA popups ",
+          "Hide inbox stories ",
+          "Hide quick comment reactions ",
+          "Hide suggested accounts ",
+          "Hold-and-slide 2x lock ",
+          "Open external links directly ",
+          "Playback speed ",
+          "Region spoof ",
+          "Remember clear display ",
+          "Resume videos after scrolling ",
           "Sanitize sharing links ",
           "Settings ",
           "Show seekbar ",
@@ -13567,6 +13378,20 @@
           "Side-by-side installation "
         ]
       }
+    },
+    "0.9.0-beta": {
+      "260368": {
+        "patches": "liongalahad/patches-1.0.0-beta.1.mpp",
+        "changelog": "https://github.com/liongalahad/nuviotv-morphe-patches/releases/tag/v1.0.0-beta.1",
+        "applied_patches": [
+          "Allow Importing Subs from Local Storage ",
+          "Local Downloads ",
+          "Local Media ",
+          "Mark SDH Subtitles ",
+          "Random Episode ",
+          "Remove SDH Annotations "
+        ]
+      }
     }
   },
   "titanium-browser-morphe": {
@@ -13581,6 +13406,11 @@
       "260322": {
         "patches": "dh6k/patches-1.4.0.mpp",
         "changelog": "https://github.com/dh6k/morphe-patches/releases/tag/v1.4.0",
+        "applied_patches": []
+      },
+      "260373": {
+        "patches": "dh6k/patches-1.5.0.mpp",
+        "changelog": "https://github.com/dh6k/morphe-patches/releases/tag/v1.5.0",
         "applied_patches": []
       }
     }
@@ -14003,6 +13833,40 @@
           "Remove Ads ",
           "Remove Watermark ",
           "Unlock Premium "
+        ]
+      }
+    }
+  },
+  "aliexpress-morphe": {
+    "8.162.8": {
+      "260374": {
+        "patches": "Quantro100/patches-1.0.7.mpp",
+        "changelog": "https://github.com/Quantro100/Morphe-patches/releases/tag/v1.0.7",
+        "applied_patches": [
+          "Bypass signature check ",
+          "Disable analytics ",
+          "Disable forced updates ",
+          "Disable promotions notifications ",
+          "Disable splash screen ",
+          "Enable image saving ",
+          "Remove ads ",
+          "Remove affiliate tracking ",
+          "Remove coupons popup ",
+          "Remove sponsored items from search "
+        ]
+      },
+      "260373": {
+        "patches": "Quantro100/patches-1.0.7.mpp",
+        "changelog": "https://github.com/Quantro100/Morphe-patches/releases/tag/v1.0.7",
+        "applied_patches": [
+          "Bypass signature check ",
+          "Disable analytics ",
+          "Disable forced updates ",
+          "Disable promotions notifications ",
+          "Remove ads ",
+          "Remove affiliate tracking ",
+          "Remove coupons popup ",
+          "Remove sponsored items from search "
         ]
       }
     }
